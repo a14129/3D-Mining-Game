@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial;
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+#ui {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#crosshair {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 30px;
+  pointer-events: none;
+}
+
+#start {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  color: white;
+  cursor: pointer;
+}
+
+#credit {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: white;
+  padding: 6px 10px;
+  background: rgba(0,0,0,0.5);
+  border: 1px solid white;
+}
